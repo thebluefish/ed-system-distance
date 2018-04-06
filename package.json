@@ -1,0 +1,30 @@
+{
+  "name": "EDSystemFinder",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Thebluefish",
+  "license": "Unlicense",
+  "private": true,
+  "scripts": {
+    "dev": "babel src -d api && (cd api && node index.js)"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.42",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.42",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.42",
+    "@babel/polyfill": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-es2015": "^7.0.0-beta.42",
+    "@babel/preset-es2017": "^7.0.0-beta.42",
+    "@babel/preset-stage-2": "^7.0.0-beta.42",
+    "@babel/runtime": "^7.0.0-beta.42",
+    "@nuxtjs/auth": "^3.4.1",
+    "@nuxtjs/axios": "^4.5.2",
+    "axios": "^0.16.2",
+    "euclidean-distance": "^1.0.0",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {}
+}
