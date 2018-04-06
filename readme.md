@@ -1,3 +1,11 @@
+Finds all systems within distance of target system, default parameters:
+
+    const system_to_find = 'Lembava';
+    const max_distance = 80.0;
+
+Instructions
+############
+
 Build against nodejs v8.9.x
 
 If using NVM Node Version Manager:
